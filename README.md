@@ -56,11 +56,9 @@ performance monitoring with a live dashboard.
 ```
 Telemetry-Collection-and-Aggregation-System
 ├── agent/                     → Telemetry sender (UDP client)
-│   ├── __pycache__/
 │   └── agent.py
 │
 ├── server/                    → Ingestion + processing + API
-│   ├── __pycache__/
 │   ├── __init__.py
 │   ├── server.py              → UDP server + pipeline orchestration
 │   ├── api.py                 → FastAPI endpoints
@@ -72,7 +70,6 @@ Telemetry-Collection-and-Aggregation-System
 │   └── app.py
 │
 ├── common/                    → Shared configs & logging
-│   ├── __pycache__/
 │   ├── config.py              → Global configuration
 │   └── logger.py              → Logging setup
 │
